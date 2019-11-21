@@ -16,7 +16,7 @@ A machine learning chatbot is implemented in python and hosted on docker.
 ### Deploying steps
 * Build the image
 ```
-docker build -t sanjanamoghe/chatbot
+docker build -t sanjanamoghe/chatbot .
 ```
 * Run the image
 ```

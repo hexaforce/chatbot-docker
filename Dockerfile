@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 # copy files required for the app to run
 COPY main.py /usr/src/app/
 COPY main-raw.py /usr/src/app/
+COPY static/chat.css /usr/src/app/static/chat.css
+COPY static/chat.js /usr/src/app/static/chat.js
 COPY templates/chat.html /usr/src/app/templates/chat.html
 COPY aiml /usr/src/app/aiml
 
